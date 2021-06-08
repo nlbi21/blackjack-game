@@ -1,0 +1,35 @@
+html,
+body {
+  margin: 0px;
+  background-color: #2F4F30;
+  color: white;
+}
+.title {
+  text-align: center;
+  background-color: black;
+  color: white;
+  padding: 20px;
+  font-size: 25px;
+}
+.card-game {
+  position: relative;
+  width: 150px;
+  left: 100px;
+  margin-left: -75px;
+}
+#dealer-cards,
+#player-cards {
+  height: 240px;
+}
+.modal-content {
+  background-color: #212121;
+}
+.modal-header {
+  border-bottom: 0px;
+}
+.modal-header .close {
+  color: white;
+}
+.modal-footer {
+  border-top: 0px;
+}
