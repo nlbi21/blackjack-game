@@ -53,7 +53,7 @@ const blackjack = (() => {
     for (let i = 0; i < qPlayers; i++) {
       playersPoints.push(0);
       divPlayersCards[i].innerHTML = '';
-      smallPointsPlayer.innerText = 0;
+      smallPointsPlayer[i].innerText = 0;
     }
     playDeck = shuffleDeck([...BASE_DECK]);
     btnGetCard.disabled = false;
